@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pick_up"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/pick_up"
+    tools:targetApi="s">
+    <RelativeLayout
+        android:id="@+id/back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/back"
+        android:elevation="8dp"
+        >
+        <RelativeLayout
+            android:id="@+id/iconly2_lig"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/iconly2_lig"
+            >
+
+            <RelativeLayout
+                android:id="@+id/iconly_ligh"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/iconly_ligh">
+                <View
+                    android:id="@+id/arrow_left_"
+                    android:layout_width="14dp"
+                    android:layout_height="7dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="15.5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:background="#00000000"
+                    />
+                    <View
+                        android:id="@+id/stroke_1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/ic_stroke_1" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame_44"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/frame_44"
+        android:elevation="8dp">
+
+        <View
+            android:id="@+id/group_8"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:background="#00000000" />
+
+        <View
+            android:id="@+id/rectangle_top"
+            android:layout_width="5.45dp"
+            android:layout_height="2.18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/rectangle_2"
+            android:rotation="90" />
+
+        <View
+            android:id="@+id/rectangle_bottom"
+            android:layout_width="5.45dp"
+            android:layout_height="2.18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rectangle_2"
+            android:rotation="90" />
+
+        <View
+            android:id="@+id/rectangle_right"
+            android:layout_width="5.45dp"
+            android:layout_height="2.18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30.55dp"
+            android:layout_marginTop="22.91dp"
+            android:background="@drawable/rectangle_2" />
+
+        <View
+            android:id="@+id/rectangle_left"
+            android:layout_width="5.45dp"
+            android:layout_height="2.18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="22.91dp"
+            android:background="@drawable/rectangle_2" />
+
+        <View
+            android:id="@+id/ellipse_11"
+            android:layout_width="15.27dp"
+            android:layout_height="15.27dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16.36dp"
+            android:layout_marginTop="16.36dp"
+            android:background="@drawable/ellipse_11" />
+
+        <View
+            android:id="@+id/ellipse_10"
+            android:layout_width="8.73dp"
+            android:layout_height="8.73dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="19.64dp"
+            android:layout_marginTop="19.64dp"
+            android:background="@drawable/ellipse_10" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/car_card"
+        android:layout_width="311dp"
+        android:layout_height="319dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="455dp"
+        android:background="@drawable/car_card"
+        android:elevation="8dp">
+
+        <TextView
+            android:id="@+id/informe_seu"
+            android:layout_width="167dp"
+            android:layout_height="21dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/informe_seu"
+            android:textAppearance="@style/informe_seu" />
+
+        <RelativeLayout
+            android:id="@+id/frame_origem"
+            android:layout_width="294dp"
+            android:layout_height="21dp"
+            android:background="@drawable/frame_origem">
+
+            <TextView
+                android:id="@+id/origem"
+                android:layout_width="60dp"
+                android:layout_height="21dp"
+                android:gravity="top"
+                android:text="@string/origem"
+                android:textAppearance="@style/origem" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="city map" />
+</RelativeLayout>

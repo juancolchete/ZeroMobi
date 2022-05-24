@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ZeroMobi</string>
+    <string name="btn_login"><![CDATA[Entrar >]]></string>
+    <string name="password_label">Senha</string>
+    <string name="informe_seu">Informe seu destino</string>
+    <string name="origem">Origem</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/back.xml" value="0.2985" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/car_card.xml" value="0.2945" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/elipse11.xml" value="0.1935" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/ellipse_10.xml" value="0.1935" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/ellipse_11.xml" value="0.2985" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/frame_44.xml" value="0.179" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/frame_origem.xml" value="0.2985" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/ic_stroke_1.xml" value="0.2985" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/iconly2_lig.xml" value="0.2985" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/iconly_arrow.xml" value="0.2985" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/iconly_ligh.xml" value="0.2985" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/pick_up.xml" value="0.2985" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/rectangle_2.xml" value="0.1935" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/rectangle_vertical.xml" value="0.1935" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/stroke_1.xml" value="0.2985" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/layout/pickup.xml" value="0.23343373493975902" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
