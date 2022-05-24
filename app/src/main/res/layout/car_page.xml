@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/car_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@color/black"
+    >
+
+    <RelativeLayout
+        android:id="@+id/back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/back"
+        android:elevation="8dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/iconly2_lig"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            >
+
+            <RelativeLayout
+                android:id="@+id/iconly_ligh"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/white">
+
+                <View
+                    android:id="@+id/arrow_left_"
+                    android:layout_width="14dp"
+                    android:layout_height="7dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#00000000" />
+
+                <View
+                    android:id="@+id/stroke_1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ic_stroke_1" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/rectangle_right"
+        android:layout_width="5.45dp"
+        android:layout_height="2.18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30.55dp"
+        android:layout_marginTop="22.91dp"
+        android:background="@drawable/rectangle_2" />
+
+</RelativeLayout>

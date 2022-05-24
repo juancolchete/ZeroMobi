@@ -6,8 +6,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clipToOutline="true"
-    android:background="@drawable/pick_up"
-    tools:targetApi="s">
+    android:background="@color/white"
+    >
     <RelativeLayout
         android:id="@+id/back"
         android:layout_width="48dp"
@@ -19,16 +19,8 @@
         android:background="@drawable/back"
         android:elevation="8dp"
         >
-        <RelativeLayout
-            android:id="@+id/iconly2_lig"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/iconly2_lig"
-            >
+
+
 
             <RelativeLayout
                 android:id="@+id/iconly_ligh"
@@ -38,28 +30,28 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="11dp"
                 android:layout_marginTop="12dp"
-                android:background="@drawable/iconly_ligh">
+                android:background="@color/white">
+
                 <View
                     android:id="@+id/arrow_left_"
                     android:layout_width="14dp"
                     android:layout_height="7dp"
                     android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="15.5dp"
                     android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15.5dp"
                     android:layout_marginTop="5dp"
-                    android:background="#00000000"
-                    />
-                    <View
-                        android:id="@+id/stroke_1"
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_alignParentBottom="true"
-                        android:background="@drawable/ic_stroke_1" />
+                    android:background="#00000000" />
+
+                <View
+                    android:id="@+id/stroke_1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ic_stroke_1" />
             </RelativeLayout>
-        </RelativeLayout>
     </RelativeLayout>
 
     <RelativeLayout
@@ -162,9 +154,10 @@
             android:id="@+id/informe_seu"
             android:layout_width="167dp"
             android:layout_height="21dp"
-            android:gravity="center_horizontal|top"
             android:text="@string/informe_seu"
-            android:textAppearance="@style/informe_seu" />
+            android:textAppearance="@style/informe_seu"
+            android:gravity="center_horizontal|top"
+            />
 
         <RelativeLayout
             android:id="@+id/frame_origem"
@@ -186,5 +179,5 @@
         android:id="@+id/mapView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:contentDescription="city map" />
+        android:contentDescription="@string/city_map" />
 </RelativeLayout>
