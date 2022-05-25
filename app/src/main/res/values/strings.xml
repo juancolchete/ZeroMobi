@@ -5,4 +5,7 @@
     <string name="informe_seu">Informe seu destino</string>
     <string name="origem">Origem</string>
     <string name="city_map">city map</string>
+    <string name="usar_localiza">Usar localização</string>
+    <string name="destino">Destino</string>
+    <string name="zeromobi">Zeromobi S</string>
 </resources>
