@@ -316,12 +316,12 @@
             android:id="@+id/btn_login"
             android:layout_width="120dp"
             android:layout_height="30dp"
+            android:layout_below="@+id/location2"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
             android:background="@drawable/button"
             android:backgroundTint="@color/sky06"
-            android:text="@string/solicitar"
-            android:textAppearance="@style/solicitar"
-            android:layout_below="@+id/location2"/>
+            android:text="@string/confirmar"
+            android:textAppearance="@style/solicitar" />
     </RelativeLayout>
 </RelativeLayout>

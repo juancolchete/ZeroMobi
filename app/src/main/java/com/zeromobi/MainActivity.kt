@@ -8,11 +8,12 @@ import android.widget.ListView
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.pickup)
+        setContentView(R.layout.activity_main)
 
         var btnLogin = findViewById<Button>(R.id.btn_login)
         btnLogin.setOnClickListener {
             setContentView(R.layout.pickup)
         }
+
     }
 }

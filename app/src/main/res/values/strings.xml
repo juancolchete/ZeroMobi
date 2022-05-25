@@ -17,4 +17,5 @@
     <string name="localizaOrigem">200-220, Av Ipiranga,República</string>
     <string name="localizaDestino">200-198, Av.Paulista São Paulo</string>
     <string name="solicitar"><![CDATA[Solicitar >]]></string>
+    <string name="confirmar"><![CDATA[Confirmar >]]></string>
 </resources>
