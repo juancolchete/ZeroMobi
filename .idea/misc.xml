@@ -20,10 +20,17 @@
         <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/drawable/stroke_1.xml" value="0.2985" />
         <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/juanc/AndroidStudioProjects/ZeroMobi/app/src/main/res/layout/pickup.xml" value="0.23343373493975902" />
+        <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/back.xml" value="0.162" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/ball.xml" value="0.198" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/blue_button.xml" value="0.232" />
+        <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/button.xml" value="0.162" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/car_background.xml" value="0.232" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/car_page.xml" value="0.2815" />
+        <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/category.xml" value="0.161" />
+        <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/category_box.xml" value="0.162" />
+        <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/category_frame.xml" value="0.161" />
+        <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/category_list.xml" value="0.161" />
+        <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/common.xml" value="0.161" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/ellipse_7.xml" value="0.161" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/ic_location.xml" value="0.121" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/ic_map_point_background.xml" value="0.121" />
@@ -35,6 +42,7 @@
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/map_point.xml" value="0.198" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/map_point_sign.xml" value="0.198" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/pick_up.xml" value="0.199" />
+        <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/drawable/rectangle_vertical.xml" value="0.162" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/layout-v31/pickup.xml" value="0.309375" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/juanc/Desktop/Estudos/AndroidStudio/ZeroMobi/app/src/main/res/layout/car_page.xml" value="0.4" />

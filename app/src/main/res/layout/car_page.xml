@@ -93,5 +93,235 @@
         android:fontFamily="@font/roboto_bold"
         />
 
+    <RelativeLayout
+        android:id="@+id/category"
+        android:layout_width="311dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/category">
 
+        <RelativeLayout
+            android:id="@+id/category_frame"
+            android:layout_width="311dp"
+            android:layout_height="25dp"
+            android:background="@drawable/category_frame">
+
+            <TextView
+                android:id="@+id/category_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="top"
+                android:text="@string/category_title"
+                android:textAppearance="@style/category_title" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/category_list"
+            android:layout_width="311dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/category_frame"
+            android:background="@drawable/category_list">
+
+            <RelativeLayout
+                android:id="@+id/common"
+                android:layout_width="90dp"
+                android:layout_height="48dp"
+                android:background="@drawable/category_box">
+
+                <TextView
+                    android:id="@+id/common_text"
+                    android:layout_width="43dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="top"
+                    android:text="@string/common_text"
+                    android:textAppearance="@style/box_text" />
+
+                <TextView
+                    android:id="@+id/r_15_00"
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/common_text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/common_value"
+                    android:textAppearance="@style/value_box" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/premium"
+                android:layout_width="90dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="48dp"
+                android:background="@drawable/category_box"
+                android:layout_toRightOf="@+id/common">
+
+                <TextView
+                    android:id="@+id/premium_text"
+                    android:layout_width="43dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="top"
+                    android:text="@string/common_text"
+                    android:textAppearance="@style/box_text"
+                    />
+
+                <TextView
+                    android:id="@+id/r_20_00"
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/premium_text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/premium_value"
+                    android:textAppearance="@style/value_box" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/shared"
+                android:layout_marginLeft="5dp"
+                android:layout_width="90dp"
+                android:layout_height="48dp"
+                android:background="@drawable/category_box"
+                android:layout_toRightOf="@+id/premium">
+
+                <TextView
+                    android:id="@+id/shared_text"
+                    android:layout_width="90dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="top"
+                    android:text="@string/shared_text"
+                    android:textAppearance="@style/box_text"
+                    />
+
+                <TextView
+                    android:id="@+id/shared_value"
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/shared_text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/shared_value"
+                    android:textAppearance="@style/value_box" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/arriveForm"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/category"
+        android:layout_centerHorizontal="true"
+        >
+    <TextView
+        android:id="@+id/origem"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/origem"
+        android:textAppearance="@style/input" />
+
+        <RelativeLayout
+            android:id="@+id/location"
+            android:layout_marginTop="5dp"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/origem"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/location">
+
+            <View
+                android:id="@+id/map_point_ball"
+                android:layout_width="16.5dp"
+                android:layout_height="19.5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ic_location" />
+
+            <TextView
+                android:id="@+id/localizaOrigem"
+                android:layout_width="280dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/map_point_ball"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/localizaOrigem"
+                android:textAppearance="@style/inputText" />
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/destino"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/destino"
+        android:textAppearance="@style/input"
+        android:layout_below="@+id/location"/>
+
+    <RelativeLayout
+        android:id="@+id/location2"
+        android:layout_marginTop="5dp"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/location"
+        android:layout_below="@+id/destino">
+        <View
+            android:id="@+id/map_point"
+            android:layout_width="16.5dp"
+            android:layout_height="19.5dp"
+            android:background="@drawable/ic_location"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/localizaDestino"
+            android:layout_width="280dp"
+            android:layout_height="22dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/map_point"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/localizaDestino"
+            android:textAppearance="@style/inputText" />
+
+    </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:id="@+id/subTotal"
+            android:layout_width="160dp"
+            android:layout_height="28dp"
+            android:layout_below="@+id/location2"
+            android:layout_toLeftOf="@+id/btn_login"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="top"
+            android:text="@string/common_value"
+            android:textAppearance="@style/sub_total"
+            />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button"
+            android:backgroundTint="@color/sky06"
+            android:text="@string/solicitar"
+            android:textAppearance="@style/solicitar"
+            android:layout_below="@+id/location2"/>
+    </RelativeLayout>
 </RelativeLayout>

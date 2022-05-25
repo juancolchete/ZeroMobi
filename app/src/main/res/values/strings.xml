@@ -8,4 +8,13 @@
     <string name="usar_localiza">Usar localização</string>
     <string name="destino">Destino</string>
     <string name="zeromobi">Zeromobi S</string>
+    <string name="category_title">Categoria</string>
+    <string name="common_text">Comum</string>
+    <string name="shared_text">Compartilhado</string>
+    <string name="common_value">R$ 15,00</string>
+    <string name="premium_value">R$ 20,00</string>
+    <string name="shared_value">R$ 13,00</string>
+    <string name="localizaOrigem">200-220, Av Ipiranga,República</string>
+    <string name="localizaDestino">200-198, Av.Paulista São Paulo</string>
+    <string name="solicitar"><![CDATA[Solicitar >]]></string>
 </resources>
