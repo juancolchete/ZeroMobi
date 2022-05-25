@@ -250,11 +250,9 @@
             android:backgroundTint="@color/sky06" />
         </RelativeLayout>
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="-2dp"
-        android:contentDescription="@string/city_map" />
+        <ImageView
+            android:layout_width="393dp"
+            android:layout_height="851dp"
+            android:background="@mipmap/ic_zeromobi_map_foreground"
+            />
 </RelativeLayout>
